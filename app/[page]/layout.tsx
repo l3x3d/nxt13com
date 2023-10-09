@@ -1,4 +1,3 @@
-import { ThreeItemGrid } from 'components/grid/three-items';
 import Footer from 'components/layout/footer';
 import { Suspense } from 'react';
 
@@ -10,7 +9,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Suspense>{children}</Suspense>
         </div>
       </div>
-      <ThreeItemGrid />
       <Footer />
     </Suspense>
   );
