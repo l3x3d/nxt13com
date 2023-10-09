@@ -10,7 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <Suspense>{children}</Suspense>
         </div>
       </div>
-      < ThreeItemGrid />
+      <ThreeItemGrid />
       <Footer />
     </Suspense>
   );
